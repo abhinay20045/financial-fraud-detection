@@ -1,5 +1,5 @@
-TransactionGenerator.class
-TransactionController.class
-KafkaProducerService.class
-ProducerApplication.class
-KafkaProducerConfig.class
+com/example/fraud/producer/controller/TransactionController.class
+com/example/fraud/producer/service/KafkaProducerService.class
+com/example/fraud/producer/service/TransactionGenerator.class
+com/example/fraud/producer/config/KafkaProducerConfig.class
+com/example/fraud/producer/ProducerApplication.class
