@@ -1,0 +1,5 @@
+/Users/abhinayprabhuraj/Downloads/financial-fraud-detection/producer-service/src/main/java/com/example/fraud/producer/ProducerApplication.java
+/Users/abhinayprabhuraj/Downloads/financial-fraud-detection/producer-service/src/main/java/com/example/fraud/producer/config/KafkaProducerConfig.java
+/Users/abhinayprabhuraj/Downloads/financial-fraud-detection/producer-service/src/main/java/com/example/fraud/producer/controller/TransactionController.java
+/Users/abhinayprabhuraj/Downloads/financial-fraud-detection/producer-service/src/main/java/com/example/fraud/producer/service/KafkaProducerService.java
+/Users/abhinayprabhuraj/Downloads/financial-fraud-detection/producer-service/src/main/java/com/example/fraud/producer/service/TransactionGenerator.java
