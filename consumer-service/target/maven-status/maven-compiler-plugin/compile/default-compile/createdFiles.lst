@@ -1,0 +1,14 @@
+com/example/fraud/consumer/listener/TransactionListener.class
+com/example/fraud/consumer/metrics/FraudMetrics.class
+com/example/fraud/consumer/config/KafkaConsumerConfig.class
+com/example/fraud/consumer/ConsumerApplication.class
+com/example/fraud/consumer/config/DatabaseConfig.class
+com/example/fraud/consumer/service/TransactionService.class
+com/example/fraud/consumer/config/KafkaProducerConfig.class
+com/example/fraud/consumer/repository/TransactionRepository.class
+com/example/fraud/consumer/service/FraudDetectionService$FraudEvaluation.class
+com/example/fraud/consumer/service/RedisAggregationService.class
+com/example/fraud/consumer/config/RedisConfig.class
+com/example/fraud/consumer/service/AccountAggregate.class
+com/example/fraud/consumer/service/FraudDetectionService.class
+com/example/fraud/consumer/model/TransactionEntity.class

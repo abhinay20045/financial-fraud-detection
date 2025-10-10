@@ -1,6 +1,7 @@
 /Users/abhinayprabhuraj/Downloads/financial-fraud-detection/consumer-service/src/main/java/com/example/fraud/consumer/ConsumerApplication.java
 /Users/abhinayprabhuraj/Downloads/financial-fraud-detection/consumer-service/src/main/java/com/example/fraud/consumer/config/DatabaseConfig.java
 /Users/abhinayprabhuraj/Downloads/financial-fraud-detection/consumer-service/src/main/java/com/example/fraud/consumer/config/KafkaConsumerConfig.java
+/Users/abhinayprabhuraj/Downloads/financial-fraud-detection/consumer-service/src/main/java/com/example/fraud/consumer/config/KafkaProducerConfig.java
 /Users/abhinayprabhuraj/Downloads/financial-fraud-detection/consumer-service/src/main/java/com/example/fraud/consumer/config/MetricsConfig.java
 /Users/abhinayprabhuraj/Downloads/financial-fraud-detection/consumer-service/src/main/java/com/example/fraud/consumer/config/RedisConfig.java
 /Users/abhinayprabhuraj/Downloads/financial-fraud-detection/consumer-service/src/main/java/com/example/fraud/consumer/controller/HealthController.java
@@ -8,6 +9,7 @@
 /Users/abhinayprabhuraj/Downloads/financial-fraud-detection/consumer-service/src/main/java/com/example/fraud/consumer/metrics/FraudMetrics.java
 /Users/abhinayprabhuraj/Downloads/financial-fraud-detection/consumer-service/src/main/java/com/example/fraud/consumer/model/TransactionEntity.java
 /Users/abhinayprabhuraj/Downloads/financial-fraud-detection/consumer-service/src/main/java/com/example/fraud/consumer/repository/TransactionRepository.java
+/Users/abhinayprabhuraj/Downloads/financial-fraud-detection/consumer-service/src/main/java/com/example/fraud/consumer/service/AccountAggregate.java
 /Users/abhinayprabhuraj/Downloads/financial-fraud-detection/consumer-service/src/main/java/com/example/fraud/consumer/service/FraudDetectionService.java
 /Users/abhinayprabhuraj/Downloads/financial-fraud-detection/consumer-service/src/main/java/com/example/fraud/consumer/service/RedisAggregationService.java
 /Users/abhinayprabhuraj/Downloads/financial-fraud-detection/consumer-service/src/main/java/com/example/fraud/consumer/service/TransactionService.java
