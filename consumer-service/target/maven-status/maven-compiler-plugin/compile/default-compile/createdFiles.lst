@@ -1,5 +1,6 @@
 com/example/fraud/consumer/listener/TransactionListener.class
 com/example/fraud/consumer/metrics/FraudMetrics.class
+com/example/fraud/consumer/config/MetricsConfig.class
 com/example/fraud/consumer/config/KafkaConsumerConfig.class
 com/example/fraud/consumer/ConsumerApplication.class
 com/example/fraud/consumer/config/DatabaseConfig.class

@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: producer-service
+
+server:
+  port: 8081
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, metrics, prometheus
+  metrics:
+    tags:
+      application: producer-service
