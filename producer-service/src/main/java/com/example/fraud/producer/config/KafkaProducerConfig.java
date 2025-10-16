@@ -27,7 +27,10 @@ public class KafkaProducerConfig {
     }
 
     @Bean
-    public KafkaTemplate<String, TransactionEvent> kafkaTemplate() {
-        return new KafkaTemplate<>(producerFactory());
+    public KafkaTemplate<String, TransactionEvent> kafkaTemplate(
+            ProducerFactory<String, TransactionEvent> producerFactory) {
+        KafkaTemplate<String, TransactionEvent> template = new KafkaTemplate<>(producerFactory);
+        template.setObservationEnabled(true);
+        return template;
     }
 }
