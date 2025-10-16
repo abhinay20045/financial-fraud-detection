@@ -76,8 +76,8 @@
             "uid": "prometheus"
           },
           "editorMode": "code",
-          "expr": "kafka_producer_record_send_rate",
-          "legendFormat": "{{client_id}}",
+          "expr": "sum by (spring_kafka_template_name) (rate(spring_kafka_template_seconds_count[1m]))",
+          "legendFormat": "{{spring_kafka_template_name}}",
           "refId": "A"
         }
       ],
@@ -140,8 +140,8 @@
             "uid": "prometheus"
           },
           "editorMode": "code",
-          "expr": "kafka_producer_record_error_rate",
-          "legendFormat": "{{client_id}}",
+          "expr": "sum by (spring_kafka_template_name) (rate(spring_kafka_template_seconds_count{error!\u003d\"none\"}[1m]))",
+          "legendFormat": "{{spring_kafka_template_name}}",
           "refId": "A"
         }
       ],
@@ -201,8 +201,8 @@
             "uid": "prometheus"
           },
           "editorMode": "code",
-          "expr": "kafka_producer_request_latency_max",
-          "legendFormat": "{{client_id}}",
+          "expr": "max by (spring_kafka_template_name) (spring_kafka_template_seconds_max)",
+          "legendFormat": "{{spring_kafka_template_name}}",
           "refId": "A"
         }
       ],
@@ -258,8 +258,8 @@
             "uid": "prometheus"
           },
           "editorMode": "code",
-          "expr": "kafka_producer_record_retry_rate",
-          "legendFormat": "{{client_id}}",
+          "expr": "sum by (spring_kafka_template_name) (rate(spring_kafka_template_seconds_count{result!\u003d\"success\"}[1m]))",
+          "legendFormat": "{{spring_kafka_template_name}}",
           "refId": "A"
         }
       ],
